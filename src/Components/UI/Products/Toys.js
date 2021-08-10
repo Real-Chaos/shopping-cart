@@ -1,12 +1,14 @@
 import React from 'react'
 import ProductPageTemplate from './ProductPage'
+import { motion } from 'framer-motion'
+import { productPageVariant as pageAnimation } from './Products'
 
 const Toys = () => {
     return (
-        <div className="products-container">
-            <h1 className="h1">Products/Toys</h1>
+        <motion.div className="products-container toys-container" variants={pageAnimation} initial="initial" animate="animate" exit="exit">
+            <h1 className="h4">Products/<br />Toys</h1>
             <ProductPageTemplate />
-        </div>
+        </motion.div>
     )
 }
 

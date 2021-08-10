@@ -1,9 +1,8 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import '../../Styles/homepage.css'
 import spiderman from '../../Images/spider.png'
-import Zoom from 'react-img-zoom'
 
 
 
@@ -30,26 +29,11 @@ const HomePage = () => {
         },
     }
 
-    // useEffect(() => {
-    //     $('.spider-man').blowup({
-    //         "background" : "#FFF",
-    //         "width" : 220,
-    //         "height" : 220,
-    //         "cursor" : true,
-    //         "round" : true,
-    //         "shadow" : "0 10px 15px 0 rgba(0,0,0,0.2)"
-    
-    //     });
-    // })
-
-    
-    
-
     return (
         <motion.div className="home-page-content" variants={homepageVariant} initial="initial" animate="animate" exit="exit">
             <div>
-                <h1>Buy Clothes & Toys</h1>
-                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
+                <h1 className="home-h1">Buy Clothes & Toys</h1>
+                <h4 className="home-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
                 <Link to="/products"><button className="buy-btn">Buy Now</button></Link>
             </div>
             <div>

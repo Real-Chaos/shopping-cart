@@ -1,0 +1,49 @@
+.product-detail {
+    background: rgba(0, 0, 0, 0.9);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    display: grid;
+    grid-template-columns: 40% 40% 20%;
+}
+.previous {
+    background: #1e1e1e;
+}
+.next {
+    background: #252526;
+}
+.add-to-bag {
+    background: #1e1e1e;
+}
+
+.product-img-div {
+    position: absolute;
+    height: 100vh;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.all-images {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 80vw;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.img-container {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.img-container img {
+    height: 80px;
+    width: 80px;
+}

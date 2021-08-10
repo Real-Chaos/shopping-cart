@@ -1,13 +1,29 @@
 import React from 'react'
+import { motion } from 'framer-motion'
 import ProductPageTemplate from './ProductPage'
+
+const productPageVariant = {
+
+    initial: {
+        opacity: 0
+    },
+    animate: {
+        opacity: 1,
+        transition: {delay: 0.2,duration: 0.3}
+    },
+    exit: {
+        x: "100vw",
+        transition: {ease: 'easeInOut', duration: 0.6}
+    }
+}
 
 const Products = () => {
     return (
-        <div className="products-container">
-            <h1 className="h1">All Products</h1>
+        <motion.div className="products-container all-products" variants={productPageVariant} initial="initial" animate="animate" exit="exit" >
+            <h4 className="h4">All <br /> Products</h4>
             <ProductPageTemplate />
-        </div>
+        </motion.div>
     )
 }
 
-export default Products
+export {Products, productPageVariant}
