@@ -11,10 +11,10 @@ import shirt5 from '../../../Images/Shirts/Shirt 5/shirt-5-1.png'
 
 const shirts = [
     {img: shirt1, name: "Japanese Shirt", allImages: [{src: shirt1}, {src: shirt1_2}, {src: shirt1_3}, {src: shirt1_4}]}, 
-    {img: shirt2, name: "Tie Dye Tee"}, 
-    {img: shirt3, name: "Astronaut Graphic Tee"},
-    {img: shirt4, name: "Dragon Graphic Round Neck Tee"},
-    {img: shirt5, name: "Japanese Letter & Wave Print Tee"}
+    {img: shirt2, name: "Tie Dye Tee", allImages: [{src: shirt2}]}, 
+    {img: shirt3, name: "Astronaut Graphic Tee", allImages: [{src: shirt3}]},
+    {img: shirt4, name: "Dragon Graphic Round Neck Tee", allImages: [{src: shirt4}]},
+    {img: shirt5, name: "Japanese Letter & Wave Print Tee", allImages: [{src: shirt5}]}
 ]
 
 export default shirts
