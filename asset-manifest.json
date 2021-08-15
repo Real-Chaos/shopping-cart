@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/shopping-cart/static/css/main.c944e620.chunk.css",
-    "main.js": "/shopping-cart/static/js/main.51f366b4.chunk.js",
-    "main.js.map": "/shopping-cart/static/js/main.51f366b4.chunk.js.map",
+    "main.css": "/shopping-cart/static/css/main.1f853adc.chunk.css",
+    "main.js": "/shopping-cart/static/js/main.2627b138.chunk.js",
+    "main.js.map": "/shopping-cart/static/js/main.2627b138.chunk.js.map",
     "runtime-main.js": "/shopping-cart/static/js/runtime-main.e2f9aa8b.js",
     "runtime-main.js.map": "/shopping-cart/static/js/runtime-main.e2f9aa8b.js.map",
-    "static/js/2.6a67fc57.chunk.js": "/shopping-cart/static/js/2.6a67fc57.chunk.js",
-    "static/js/2.6a67fc57.chunk.js.map": "/shopping-cart/static/js/2.6a67fc57.chunk.js.map",
+    "static/js/2.b6b2dee1.chunk.js": "/shopping-cart/static/js/2.b6b2dee1.chunk.js",
+    "static/js/2.b6b2dee1.chunk.js.map": "/shopping-cart/static/js/2.b6b2dee1.chunk.js.map",
     "index.html": "/shopping-cart/index.html",
-    "static/css/main.c944e620.chunk.css.map": "/shopping-cart/static/css/main.c944e620.chunk.css.map",
-    "static/js/2.6a67fc57.chunk.js.LICENSE.txt": "/shopping-cart/static/js/2.6a67fc57.chunk.js.LICENSE.txt",
+    "static/css/main.1f853adc.chunk.css.map": "/shopping-cart/static/css/main.1f853adc.chunk.css.map",
+    "static/js/2.b6b2dee1.chunk.js.LICENSE.txt": "/shopping-cart/static/js/2.b6b2dee1.chunk.js.LICENSE.txt",
     "static/media/homepage.css": "/shopping-cart/static/media/background.7f208557.jpg",
     "static/media/products.css": "/shopping-cart/static/media/toys-background.bad4ce4f.jpg",
     "static/media/shirt-1-1.56f48853.png": "/shopping-cart/static/media/shirt-1-1.56f48853.png",
@@ -24,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e2f9aa8b.js",
-    "static/js/2.6a67fc57.chunk.js",
-    "static/css/main.c944e620.chunk.css",
-    "static/js/main.51f366b4.chunk.js"
+    "static/js/2.b6b2dee1.chunk.js",
+    "static/css/main.1f853adc.chunk.css",
+    "static/js/main.2627b138.chunk.js"
   ]
 }
