@@ -9,7 +9,7 @@ const Shirts = () => {
     const [ shirtsImages ] = useState(shirts)
     const displayShirts = shirtsImages.map(shirtInfo => {
         return (
-            <div className="product-card hovereffect">
+            <div className="product-card hovereffect" key={shirtsImages.indexOf(shirtInfo)}>
                 <img className="product-image img-responsive" src={shirtInfo["img"]} alt={shirtInfo["name"]} />
                 <div className="overlay">
                     <h2>{shirtInfo["name"]}</h2>

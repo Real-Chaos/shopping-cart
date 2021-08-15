@@ -60,15 +60,6 @@ const Nav = () => {
                       <motion.i className="fas fa-shopping-cart cart" variants={shoppingCartVariant}
                         whileHover="hover" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
                       </motion.i>
-                      <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-                        <div className="offcanvas-header">
-                          <h5 id="offcanvasRightLabel">Offcanvas right</h5>
-                          <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                        </div>
-                        <div className="offcanvas-body">
-                        ...
-                        </div>
-                    </div>
                     </li>
                   </ul>
                 <motion.form className="d-flex" style={searchBarStyles} variants={searchVariant} initial="initial" animate="animate" exit="exit">

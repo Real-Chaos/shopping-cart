@@ -39,13 +39,6 @@ const HomePage = () => {
             <div>
                 <AnimatePresence>
                     <motion.img className="spider-man" src={spiderman} alt="Spiderman" variants={spiderVariant} animate="animate" exit="exit"/>
-                    {/* <Zoom
-                      img={spiderman}
-                      zoomScale={3}
-                      width={600}
-                      height={600}
-                      transitionTime={0.5}
-                    /> */}
                 </AnimatePresence>
             </div>
         </motion.div>

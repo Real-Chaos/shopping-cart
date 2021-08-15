@@ -6,8 +6,10 @@ import Shirts from './Components/UI/Products/Shirts'
 import Pants from './Components/UI/Products/Pants'
 import Suits from './Components/UI/Products/Suits'
 import Toys from './Components/UI/Products/Toys'
+import Cart from './Components/UI/Cart'
+import { addedToCart } from './Components/UI/Product Details/ShirtDetails'
 
-import ShirtDetails from './Components/UI/Product Details/ShirtDetails'
+import { ShirtDetails } from './Components/UI/Product Details/ShirtDetails'
 import { Switch, Route, useLocation } from "react-router-dom"
 import { AnimatePresence } from 'framer-motion'
 function App() {
@@ -15,6 +17,7 @@ function App() {
   return (
     <>
       <Nav />
+      <Cart addedToCart={addedToCart} />
       <AnimatePresence exitBeforeEnter>
         <Switch location={location} key={location.key}>
         <Route exact path="/shopping-cart">

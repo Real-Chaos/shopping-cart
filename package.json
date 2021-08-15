@@ -15,6 +15,7 @@
     "magnify": "^2.3.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-image-magnifiers": "^1.4.0",
     "react-image-magnify": "^2.7.4",
     "react-img-zoom": "^0.1.0",
     "react-router-dom": "^5.2.0",

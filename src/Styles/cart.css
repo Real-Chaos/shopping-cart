@@ -1,0 +1,26 @@
+.offcanvas {
+    background: #1e1e1e;
+    padding: 4% 2%;
+    width: 600px;
+}
+
+.cart-div {
+    color: white;
+}
+.item-img {
+    width: 128px;
+    height: 128px;
+}
+
+.cart-item-layout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: start;
+    margin-top: 20px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

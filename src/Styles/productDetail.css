@@ -15,6 +15,12 @@
 }
 .add-to-bag {
     background: #1e1e1e;
+    display: flex;
+    justify-content: center;
+}
+button.add-to-cart {
+    align-self: flex-end;
+    margin-bottom: 50px;
 }
 
 .product-img-div {
@@ -24,7 +30,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
+
+.product-h1 {
+    color: white;
+}
+
+.product-img {
+    height: 400px;
+}
+
 .all-images {
     position: absolute;
     bottom: 0;
@@ -47,3 +63,5 @@
     height: 80px;
     width: 80px;
 }
+
+  
